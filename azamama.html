@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <title>弹幕图表展示</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Comic Sans MS', 'Arial', sans-serif;
+      background-image: url('background.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+    }
+
+    header {
+      background-color: #2e8b57;
+      padding: 20px 0;
+      text-align: center;
+      color: white;
+      font-size: 28px;
+      font-weight: bold;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 50px auto;
+      background-color: rgba(255, 255, 255, 0.85);
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    section {
+      margin-bottom: 50px;
+      text-align: center;
+    }
+
+    img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    h2 {
+      font-size: 22px;
+      color: #2f4f4f;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    弹幕数据可视化展示
+  </header>
+
+  <main>
+    <section>
+      <h2>图24：弹幕词云图</h2>
+      <img src="wordcloud.png" alt="弹幕词云图" />
+    </section>
+
+    <section>
+      <h2>图25：弹幕数量时间分布柱状图</h2>
+      <img src="bar_chart.png" alt="弹幕数量时间分布柱状图" />
+    </section>
+  </main>
+</body>
+</html>
